@@ -13,14 +13,6 @@ const Card = () => {
         }
         fetchData();
     }, []);
-
-   /* const outOfFrame = (name) => {
-        console.log(name + " left the screen");
-    }
-
-    const swiped = (dir, removeName) => {
-        console.log("removing " + removeName);
-    }*/
     
     return(
         <div className="personCard">
@@ -30,8 +22,6 @@ const Card = () => {
                         className="swipe"
                         key={person.name}
                         preventSwipe={["up", "down"]}
-                       /* onSwipe={(dir) => swiped(dir, person.name)}
-                onCardLeftScreen={() => outOfFrame(person.name)}*/
                     >
                         <div 
                             style={{backgroundImage: `url("${person.imgUrl}")`}}
