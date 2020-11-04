@@ -1,0 +1,37 @@
+.buttons{
+    position: fixed;
+    bottom: 2em;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.buttons .MuiIconButton-root{
+    background-color: #fff;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.button_repeat{
+    padding: 3vw !important;
+    color: #f5b748 !important;
+}
+
+.button_left{
+    padding: 3vw !important;
+    color: #ec5e6f !important;
+}
+
+.button_star{
+    padding: 3vw !important;
+    color: #62b4f9 !important;
+}
+
+.button_right{
+    padding: 3vw !important;
+    color: #76e2b3 !important;
+}
+
+.button_flash{
+    padding: 3vw !important;
+    color: #915dd1 !important;
+}
